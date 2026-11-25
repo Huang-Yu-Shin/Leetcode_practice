@@ -25,7 +25,7 @@ public:
             }
             resultpoint = resultpoint->next; //注意要宣告移動到下一個node
         }
-        if (list1 != nullptr) { //有一行已經走完了就將其街道另一行
+        if (list1 != nullptr) { //有一行已經走完了就接到另一行
             resultpoint->next = list1;
         }
         else {
